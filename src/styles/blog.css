@@ -1,0 +1,22 @@
+h2 {
+    font-size: 3vh;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid whitesmoke;
+}
+
+img {
+    padding: 1rem;
+    width: 40vw;
+    height: 40vh;
+    /* aspect-ratio: auto; */
+}
+
+li {
+    padding-inline-end: 0.5rem;
+}
+
+code {
+    background-color: #e0dbd8;
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+}

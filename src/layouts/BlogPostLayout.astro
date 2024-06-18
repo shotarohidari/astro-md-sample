@@ -1,0 +1,16 @@
+---
+const {frontmatter} = Astro.props;
+import '../styles/blog.css';
+---
+<html>
+  <!-- ... -->
+  <h1>{frontmatter.title}</h1>
+  <div>執筆者: {frontmatter.author}</div>
+  <slot /> 
+</html>
+
+<style>
+:root {
+    padding: 1rem;
+}
+</style>
